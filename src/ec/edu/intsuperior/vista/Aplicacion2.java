@@ -10,18 +10,15 @@ import java.util.Scanner;
  *
  * @author Mishel
  */
-public class Aplicacion {
+public class Aplicacion2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N;
-        System.out.print("Introduzca Número entero: ");                                                 
+        System.out.print("Ingrese un número entero: ");
         N = sc.nextInt();
-        if(N%2==0)
-           System.out.println("Par");   
+        if(N%10==0)
+           System.out.println("Es múltiplo de 10");   
         else
-            System.out.println("Impar"); 
+           System.out.println("No es múltiplo de 10");
     }
-    }
-
-
-
+}
